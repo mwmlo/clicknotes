@@ -1,0 +1,31 @@
+.navbarHorizontal {
+    background-color: #172b4d;
+    margin-bottom: 8vh;
+}
+
+.navbarHorizontal a {
+    color: white;
+}
+
+.display1 {
+    font-weight: 800!important;
+    margin-bottom: 2vh;
+}
+
+.subtopic {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vh;
+}
+
+.card {
+    border:none;
+}
+
+.card Button {
+    margin: 2vh 0;
+}
+
+img {
+    width: 100%;
+}
