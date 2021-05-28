@@ -4,6 +4,8 @@ import Accordion from '../../../components/Accordion'
 import Motion from './Motion'
 import Forces from './Forces'
 import Springs from './Springs'
+import Momentum from './Momentum'
+import Work from './Work'
 import Navigation from '../../../components/Navigation'
 import * as notesCSS from "../../../components/notes.module.css"
 
@@ -27,6 +29,16 @@ class Mechanics extends Component {
             ["Define Hooke's Law.", Springs(2)],
             ["Distinguish between different types of friction.", Springs(3)]
         ]
+        const momentum = [
+            ["Define momentum and impulse.", Momentum(1)],
+            ["Describe Newton's Third Law.", Momentum(2)],
+            ["Describe how to read a force-time diagram.", Momentum(3)],
+            ["Distinguish between elastic and inelastic collisions.", Momentum(4)]
+        ]
+        const work = [
+            ["Define work and power.", Work(1)],
+            ["Distinguish between different types of energy.", Work(2)]
+        ]
 
         return (
             <div>
@@ -49,6 +61,14 @@ class Mechanics extends Component {
                             <div className={notesCSS.subtopic}>
                                 <h3>Springs</h3>
                                 <Accordion questionAnswer={springs} topic="springs" />
+                            </div>
+                            <div className={notesCSS.subtopic}>
+                                <h3>Momentum</h3>
+                                <Accordion questionAnswer={momentum} topic="momentum" />
+                            </div>
+                            <div className={notesCSS.subtopic}>
+                                <h3>Work</h3>
+                                <Accordion questionAnswer={work} topic="work" />
                             </div>
                         </Col>
                     </Row>

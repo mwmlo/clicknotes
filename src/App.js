@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Home from './components/Home'
 import Mechanics from './notes/physics/mechanics/Mechanics';
-
+import Thermal from './notes/physics/thermal/Thermal';
 
 // Argon Design
 import "../node_modules/argon-design-system-react/src/assets/vendor/nucleo/css/nucleo.css";
@@ -22,6 +22,9 @@ function App() {
           </Route>
           <Route path="/mechanics">
             <Mechanics />
+          </Route>
+          <Route path="/thermal">
+            <Thermal />
           </Route>
         </div>
       </Router>

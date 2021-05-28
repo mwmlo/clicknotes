@@ -114,6 +114,12 @@ class Home extends Component {
                                                 Mechanics
                                             </Button>
                                         </Link>
+                                        <Link to="/thermal">
+                                            <Button color="success" outline type="button">
+                                                Thermal Physics
+                                            </Button>
+                                        </Link>
+
                                     </TabPane>
                                     <TabPane tabId="tabs2">
                                         <p className={homeCSS.cardDesc}>
