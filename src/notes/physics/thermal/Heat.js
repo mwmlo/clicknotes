@@ -6,7 +6,7 @@ import TeX from '@matejmazur/react-katex';
 import thermal1 from '../../../images/thermalImg/thermal1.png'
 import thermal2 from '../../../images/thermalImg/thermal2.png'
 
-function Thermal(props) {
+function Heat(props) {
     if (props === 1) {
         return (
             <ul>
@@ -94,4 +94,4 @@ function Thermal(props) {
     }
 }
 
-export default Forces
+export default Heat

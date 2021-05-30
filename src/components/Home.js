@@ -15,7 +15,6 @@ import {
 
 import * as homeCSS from "./home.module.css"
 import About from './About';
-import books from '../images/misc/books.jpg'
 
 class Home extends Component {
 
@@ -117,6 +116,11 @@ class Home extends Component {
                                         <Link to="/thermal">
                                             <Button color="success" outline type="button">
                                                 Thermal Physics
+                                            </Button>
+                                        </Link>
+                                        <Link to="/wavesSL">
+                                            <Button color="success" outline type="button">
+                                                Waves (SL)
                                             </Button>
                                         </Link>
 
