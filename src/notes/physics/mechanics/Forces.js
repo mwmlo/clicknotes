@@ -69,10 +69,10 @@ function Forces(props) {
                     </ul>
                     </li>
                 </ul>
-                <img src={mech2} />
-                <img src={mech3} />
-                <img src={mech4} />
-                <img src={mech5} />
+                <img src={mech2} alt="Terminal velocity graphs"/>
+                <img src={mech3} alt="Forces during terminal velocity"/>
+                <img src={mech4} alt="Forces during freefall"/>
+                <img src={mech5} alt="Velocity-time graph for freefall"/>
             </div>
         )
     } else if (props === 5) {
@@ -90,8 +90,8 @@ function Forces(props) {
                     </li>
                     <li>If a force is not along the X or y axis, deconstruct it into components in a force diagram</li>
                 </ul>
-                <img src={mech6} />
-                <img src={mech7} />
+                <img src={mech6} alt="Free body diagram of projectile"/>
+                <img src={mech7} alt="Velocity components of projectile" />
             </div>
         )
     } else if (props === 6) {
@@ -110,7 +110,7 @@ function Forces(props) {
                     </ul>
                     </li>
                 </ul>
-                <img src={mech8} />
+                <img src={mech8} alt="Forces in an elevator"/>
             </div>
         )
     }

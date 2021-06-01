@@ -56,7 +56,7 @@ function Motion(props) {
                 </ul>
                 </li>
             </ul>
-            <img src={mech9} />
+            <img src={mech9} alt="Friction and force applied"/>
             </div>
         )
     }
