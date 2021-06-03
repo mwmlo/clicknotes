@@ -14,7 +14,7 @@ class Mechanics extends Component {
         const motion = [
             ["Define the quantities of motion.", Motion(1)],
             ["Distinguish between velocity, speed and acceleration.", Motion(2)],
-            ["Describe position time graphs and velocity time graphs.", Motion(3)]
+            ["Describe position-time and velocity-time graphs.", Motion(3)]
         ]
         const forces = [
             ["Define the quantities on a force diagram.", Forces(1)],

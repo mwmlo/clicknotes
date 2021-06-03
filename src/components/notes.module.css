@@ -1,11 +1,11 @@
-
 .navbarHorizontal {
     background-color: #172b4d;
-    margin-bottom: 8vh;
+    margin-bottom: 6vh;
 }
 
 .navbarHorizontal a {
     color: white;
+    font-size: 20px;
 }
 
 .display1 {
@@ -16,7 +16,7 @@
 .subtopic {
     display: flex;
     flex-direction: column;
-    margin-bottom: 4vh;
+    margin: 2vh 0;
     max-width: 35vw;
 }
 

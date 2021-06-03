@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import Home from './components/Home'
+import Landing from './components/Landing';
 
 // Note components
 import Mechanics from './notes/physics/mechanics/Mechanics';
@@ -20,7 +20,7 @@ function App() {
       <Router>
         <div>
           <Route exact path="/">
-            <Home />
+            <Landing />
           </Route>
           <Route path="/mechanics">
             <Mechanics />
