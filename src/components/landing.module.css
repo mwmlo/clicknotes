@@ -8,7 +8,7 @@
 
 .cover {
     width: 50vw;
-    padding: 8vh 0 8vh 5vw;
+    padding: 8vh 0vw 8vh 5vw;
 }
 
 .menu {
@@ -26,7 +26,7 @@
 /* About */
 .desc h3 {
     color: #2dce89;
-    margin: 4vh 0;
+    margin: 4vh 0vw;
 }
 
 .desc p {
@@ -53,7 +53,7 @@
 /* Demo image */
 .demo {
     object-fit: cover;
-    object-position: 100% 0;
+    object-position: 100% 0%;
     margin-top: 4vh;
     padding: 10px;
     border-radius: 10px;
@@ -74,7 +74,7 @@
     }
     .cover {
         width: 100vw;
-        padding: 8vh 0 2vh 5vw;
+        padding: 8vh 0vw 2vh 5vw;
     }
     .menu {
         width: 100vw;
