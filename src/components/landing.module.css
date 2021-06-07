@@ -13,7 +13,7 @@
 
 .menu {
     width: 60vw;
-    padding: 10vh 5vw;
+    padding: 8vh 5vw;
 }
 
 .title {
@@ -54,8 +54,7 @@
 .demo {
     object-fit: cover;
     object-position: 100% 0;
-    height: 40vh;
-    margin-top: 8vh;
+    margin-top: 4vh;
     padding: 10px;
     border-radius: 10px;
     background-color: white;
@@ -66,4 +65,25 @@
     text-align: right;
     margin-top: 10px;
     font-style: italic;
+}
+
+@media only screen and (max-width: 1000px) {
+    .landing {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .cover {
+        width: 100vw;
+        padding: 8vh 0 2vh 5vw;
+    }
+    .menu {
+        width: 100vw;
+        padding: 2vh 5vw;
+    }
+    .title {
+        font-size: 10vw;
+    }
+    .desc p {
+        width: 80vw;
+    }
 }

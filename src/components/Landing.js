@@ -1,21 +1,9 @@
 import React, { Component } from 'react'
-
 import * as landingCSS from "./landing.module.css"
 import About from './About';
 import Tabs from './Tabs';
 
 class Landing extends Component {
-
-    state = {
-        tabs: 1
-    };
-    toggleNavs = (e, state, index) => {
-        e.preventDefault();
-        this.setState({
-            [state]: index
-        });
-    };
-
     render() {
         return (
             <div className={landingCSS.landing}>

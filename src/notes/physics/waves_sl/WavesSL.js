@@ -10,6 +10,7 @@ import Standing from './Standing'
 
 import Navigation from '../../../components/Navigation'
 import * as notesCSS from "../../../components/notes.module.css"
+import Footer from '../../../components/Footer'
 
 class WavesSL extends Component {
     render() {
@@ -51,7 +52,7 @@ class WavesSL extends Component {
             <div>
                 <Navigation />
 
-                <Container>
+                <Container className={notesCSS.notesContainer}>
                     <h1 className={notesCSS.display1}>Waves SL 🌊</h1>
                     <Row>
                         <Col className="col-sm">
@@ -92,6 +93,8 @@ class WavesSL extends Component {
                         </Col>
                     </Row>
                 </Container>
+
+                <Footer/>
 
             </div>
         )

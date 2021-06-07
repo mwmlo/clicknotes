@@ -30,52 +30,44 @@ export class Tabs extends Component {
     render() {
         return (
             <>
-                <Nav
-                    className="nav-fill flex-column flex-md-row"
+                <Nav className="nav-fill flex-column flex-md-row"
                     id="tabs-icons-text"
                     pills
-                    role="tablist"
-                >
+                    role="tablist">
                     <NavItem>
-                        <NavLink
-                            aria-selected={this.state.tabs === 1}
+                        <NavLink aria-selected={this.state.tabs === 1}
                             className={classnames("mb-sm-3 mb-md-0", {
                                 active: this.state.tabs === 1
                             })}
                             onClick={e => this.toggleNavs(e, "tabs", 1)}
                             href="#"
-                            role="tab"
-                        >
-                            <i className="ni ni-atom mr-2" />
-                                            Physics
+                            role="tab">
+                                <i className="ni ni-atom mr-2" />
+                                Physics
                             </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink
-                            aria-selected={this.state.tabs === 2}
+                        <NavLink aria-selected={this.state.tabs === 2}
                             className={classnames("mb-sm-3 mb-md-0", {
                                 active: this.state.tabs === 2
                             })}
                             onClick={e => this.toggleNavs(e, "tabs", 2)}
                             href="#"
-                            role="tab"
-                        >
-                            <i className="fa fa-flask mr-2" />
-                                            Chemistry
+                            role="tab">
+                                <i className="fa fa-flask mr-2" />
+                                Chemistry
                             </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink
-                            aria-selected={this.state.tabs === 3}
+                        <NavLink aria-selected={this.state.tabs === 3}
                             className={classnames("mb-sm-3 mb-md-0", {
                                 active: this.state.tabs === 3
                             })}
                             onClick={e => this.toggleNavs(e, "tabs", 3)}
                             href="#"
-                            role="tab"
-                        >
-                            <i className="fa fa-users mr-2" />
-                                            Psychology
+                            role="tab">
+                                <i className="fa fa-users mr-2" />
+                                Psychology
                             </NavLink>
                     </NavItem>
                 </Nav>

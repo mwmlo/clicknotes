@@ -2,16 +2,12 @@ import React from 'react'
 import { Button } from 'reactstrap'
 import * as notesCSS from "./notes.module.css"
 
-// Input: question [string] and answer [object]
-// Returns a toggle card with question and answer
 function ToggleCard(props) {
-
     let question = props.question;
     let answer = props.answer;
     let index = props.index;
     let topic = props.topic;
 
-    // Labelling data targets in cards
     const cardHeaderID = `heading${topic}${index}`
     const cardHeaderDataTarget = `#collapse${topic}${index}`
     const cardHeaderAriaControls = `collapse${topic}${index}`

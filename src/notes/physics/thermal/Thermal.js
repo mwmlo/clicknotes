@@ -5,6 +5,7 @@ import Accordion from '../../../components/Accordion'
 import Heat from './Heat'
 import Gases from './Gases'
 
+import Footer from '../../../components/Footer'
 import Navigation from '../../../components/Navigation'
 import * as notesCSS from "../../../components/notes.module.css"
 
@@ -30,7 +31,7 @@ class Thermal extends Component {
             <div>
                 <Navigation />
 
-                <Container>
+                <Container className={notesCSS.notesContainer}>
                     <h1 className={notesCSS.display1}>Thermal 🔥</h1>
                     <Row>
                         <Col className="col-sm">
@@ -47,6 +48,8 @@ class Thermal extends Component {
                         </Col>
                     </Row>
                 </Container>
+
+                <Footer/>
 
             </div>
         )

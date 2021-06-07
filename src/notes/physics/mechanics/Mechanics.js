@@ -8,6 +8,7 @@ import Momentum from './Momentum'
 import Work from './Work'
 import Navigation from '../../../components/Navigation'
 import * as notesCSS from "../../../components/notes.module.css"
+import Footer from '../../../components/Footer'
 
 class Mechanics extends Component {
     render() {
@@ -44,7 +45,7 @@ class Mechanics extends Component {
             <div>
                 <Navigation />
 
-                <Container>
+                <Container className={notesCSS.notesContainer}>
                     <h1 className={notesCSS.display1}>Mechanics ⚙️</h1>
                     <Row>
                         <Col className="col-sm">
@@ -74,6 +75,7 @@ class Mechanics extends Component {
                     </Row>
                 </Container>
 
+                <Footer/>
             </div>
         )
     }
