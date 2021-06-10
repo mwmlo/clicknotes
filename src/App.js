@@ -7,6 +7,7 @@ import Landing from './components/Landing';
 import Mechanics from './notes/physics/mechanics/Mechanics';
 import Thermal from './notes/physics/thermal/Thermal';
 import WavesSL from './notes/physics/waves_sl/WavesSL';
+import Atomic from './notes/chemistry/atomic/Atomic'
 
 // Argon Design
 import "../node_modules/argon-design-system-react/src/assets/vendor/nucleo/css/nucleo.css";
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/">
             <Landing />
           </Route>
+          {/*Physics*/}
           <Route path="/mechanics">
             <Mechanics />
           </Route>
@@ -30,6 +32,10 @@ function App() {
           </Route>
           <Route path="/wavesSL">
             <WavesSL />
+          </Route>
+          {/*Chemistry*/}
+          <Route path="/atomic">
+            <Atomic />
           </Route>
         </div>
       </Router>

@@ -96,9 +96,12 @@ export class Tabs extends Component {
 
                             </TabPane>
                             <TabPane tabId="tabs2">
-                                <Button color="success" outline type="button">
-                                    Coming soon!
-                                </Button>
+                                <Link to="/atomic">
+                                    <Button color="success" outline type="button">
+                                        ⚛️ Atomic Structure
+                                    </Button>
+                                </Link>
+
                             </TabPane>
                             <TabPane tabId="tabs3">
                                 <Button color="success" outline type="button">
