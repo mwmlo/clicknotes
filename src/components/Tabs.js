@@ -34,6 +34,7 @@ export class Tabs extends Component {
                     id="tabs-icons-text"
                     pills
                     role="tablist">
+
                     <NavItem>
                         <NavLink aria-selected={this.state.tabs === 1}
                             className={classnames("mb-sm-3 mb-md-0", {
@@ -46,6 +47,7 @@ export class Tabs extends Component {
                                 Physics
                             </NavLink>
                     </NavItem>
+
                     <NavItem>
                         <NavLink aria-selected={this.state.tabs === 2}
                             className={classnames("mb-sm-3 mb-md-0", {
@@ -58,6 +60,7 @@ export class Tabs extends Component {
                                 Chemistry
                             </NavLink>
                     </NavItem>
+
                     <NavItem>
                         <NavLink aria-selected={this.state.tabs === 3}
                             className={classnames("mb-sm-3 mb-md-0", {
@@ -70,6 +73,7 @@ export class Tabs extends Component {
                                 Psychology
                             </NavLink>
                     </NavItem>
+
                 </Nav>
 
                 {/* Card descriptions for each subject */}
@@ -77,6 +81,7 @@ export class Tabs extends Component {
                 <Card className="shadow">
                     <CardBody className={landingCSS.cardBody}>
                         <TabContent activeTab={"tabs" + this.state.tabs}>
+
                             <TabPane tabId="tabs1">
                                 <Link to="/mechanics">
                                     <Button color="success" outline type="button">
@@ -95,19 +100,26 @@ export class Tabs extends Component {
                                 </Link>
 
                             </TabPane>
+
                             <TabPane tabId="tabs2">
                                 <Link to="/atomic">
                                     <Button color="success" outline type="button">
                                         ⚛️ Atomic Structure
                                     </Button>
                                 </Link>
-
+                                <Link to="/periodicity">
+                                    <Button color="success" outline type="button">
+                                        📈 Periodicity
+                                    </Button>
+                                </Link>
                             </TabPane>
+
                             <TabPane tabId="tabs3">
                                 <Button color="success" outline type="button">
                                     Coming soon!
                                 </Button>
                             </TabPane>
+                            
                         </TabContent>
                     </CardBody>
                 </Card>
