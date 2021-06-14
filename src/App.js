@@ -13,6 +13,8 @@ import "../node_modules/argon-design-system-react/src/assets/vendor/font-awesome
 import Mechanics from './notes/physics/mechanics/Mechanics';
 import Thermal from './notes/physics/thermal/Thermal';
 import WavesSL from './notes/physics/waves_sl/WavesSL';
+import ElectromagnetismSL from './notes/physics/electro_sl/ElectromagnetismSL';
+import CircMotion from './notes/physics/circmotion/CircMotion';
 import Atomic from './notes/chemistry/atomic/Atomic'
 import Periodicity from './notes/chemistry/periodic/Periodicity';
 
@@ -35,6 +37,12 @@ function App() {
           </Route>
           <Route path="/wavesSL">
             <WavesSL />
+          </Route>
+          <Route path="/electroSL">
+            <ElectromagnetismSL />
+          </Route>
+          <Route path="/circmotion">
+            <CircMotion />
           </Route>
 
           {/*Chemistry*/}

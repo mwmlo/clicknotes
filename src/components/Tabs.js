@@ -98,6 +98,16 @@ export class Tabs extends Component {
                                         🌊 Waves (SL)
                                     </Button>
                                 </Link>
+                                <Link to="/electroSL">
+                                    <Button color="success" outline type="button">
+                                        💡 Electromagnetism (SL)
+                                    </Button>
+                                </Link>
+                                <Link to="/circmotion">
+                                    <Button color="success" outline type="button">
+                                        🎡 Circular Motion (SL)
+                                    </Button>
+                                </Link>
 
                             </TabPane>
 
