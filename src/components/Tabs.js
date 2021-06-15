@@ -108,6 +108,16 @@ export class Tabs extends Component {
                                         🎡 Circular Motion (SL)
                                     </Button>
                                 </Link>
+                                <Link to="/nuclearSL">
+                                    <Button color="success" outline type="button">
+                                        ⚛️ Nuclear Physics (SL)
+                                    </Button>
+                                </Link>
+                                <Link to="/energy">
+                                    <Button color="success" outline type="button">
+                                        🏭 Energy Production
+                                    </Button>
+                                </Link>
 
                             </TabPane>
 

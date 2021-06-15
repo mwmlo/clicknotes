@@ -7,7 +7,7 @@
 }
 
 .cover {
-    width: 50vw;
+    width: 40vw;
     padding: 8vh 0vw 8vh 5vw;
 }
 
@@ -47,13 +47,15 @@
 
 .cardBody Button {
     font-size: 14px;
-    margin: 6px;
+    margin: 0px 10px 8px 0px;
+    padding: 8px 10px;
 }
 
 /* Demo image */
 .demo {
-    object-fit: cover;
+    object-fit:cover;
     object-position: 100% 0%;
+    height: 45vh;
     margin-top: 4vh;
     padding: 10px;
     border-radius: 10px;

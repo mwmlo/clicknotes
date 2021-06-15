@@ -5,7 +5,7 @@ class About extends Component {
     render() {
         return (
             <div className={landingCSS.desc}>
-                <h3> Interactive notes, built for <strong>active revision.</strong></h3>
+                <h3> Interactive notes for <strong>active revision.</strong></h3>
                 <p>
                     ☝️ <strong>Review content quicky!</strong> Each Click Note contains a summary of essential content in the IB syllabus topic.
                 </p>
