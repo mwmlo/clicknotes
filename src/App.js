@@ -19,6 +19,7 @@ import NuclearSL from './notes/physics/nuclear_sl/NuclearSL';
 import Energy from './notes/physics/energy/Energy';
 import Atomic from './notes/chemistry/atomic/Atomic'
 import Periodicity from './notes/chemistry/periodic/Periodicity';
+import Bonding from './notes/chemistry/bonding/Bonding';
 
 function App() {
   return (
@@ -59,6 +60,9 @@ function App() {
           </Route>
           <Route path="/periodicity">
             <Periodicity />
+          </Route>
+          <Route path="/bonding">
+            <Bonding />
           </Route>
           
         </div>

@@ -132,6 +132,11 @@ export class Tabs extends Component {
                                         📈 Periodicity
                                     </Button>
                                 </Link>
+                                <Link to="/bonding">
+                                    <Button color="success" outline type="button">
+                                        🔗 Bonding
+                                    </Button>
+                                </Link>
                             </TabPane>
 
                             <TabPane tabId="tabs3">
