@@ -34,6 +34,7 @@
 
 .notesContainer {
     margin-bottom: 10vh;
+    min-height: 70vh;
 }
 
 .card {

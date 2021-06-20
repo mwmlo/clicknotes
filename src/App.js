@@ -20,6 +20,7 @@ import Energy from './notes/physics/energy/Energy';
 import Atomic from './notes/chemistry/atomic/Atomic'
 import Periodicity from './notes/chemistry/periodic/Periodicity';
 import Bonding from './notes/chemistry/bonding/Bonding';
+import Energetics from './notes/chemistry/energetics/Energetics';
 
 function App() {
   return (
@@ -63,6 +64,9 @@ function App() {
           </Route>
           <Route path="/bonding">
             <Bonding />
+          </Route>
+          <Route path="/energetics">
+            <Energetics />
           </Route>
           
         </div>
