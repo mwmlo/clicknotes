@@ -21,6 +21,8 @@ import Atomic from './notes/chemistry/atomic/Atomic'
 import Periodicity from './notes/chemistry/periodic/Periodicity';
 import Bonding from './notes/chemistry/bonding/Bonding';
 import Energetics from './notes/chemistry/energetics/Energetics';
+import Kinetics from './notes/chemistry/kinetics/Kinetics';
+import Equilibrium from './notes/chemistry/equilibrium/Equilibrium';
 
 function App() {
   return (
@@ -67,6 +69,12 @@ function App() {
           </Route>
           <Route path="/energetics">
             <Energetics />
+          </Route>
+          <Route path="/kinetics">
+            <Kinetics />
+          </Route>
+          <Route path="/equilibrium">
+            <Equilibrium />
           </Route>
           
         </div>

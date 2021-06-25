@@ -1,6 +1,5 @@
 import React from 'react'
 import 'katex/dist/katex.min.css';
-import TeX from '@matejmazur/react-katex';
 
 // Import images
 import circMotion7 from "../../../images/circMotionImg/circMotion7.png"

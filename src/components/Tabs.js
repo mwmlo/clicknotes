@@ -142,6 +142,16 @@ export class Tabs extends Component {
                                         ⚡ Energetics
                                     </Button>
                                 </Link>
+                                <Link to="/energetics">
+                                    <Button color="success" outline type="button">
+                                        🏃 Kinetics
+                                    </Button>
+                                </Link>
+                                <Link to="/equilibrium">
+                                    <Button color="success" outline type="button">
+                                        ⚖️ Equilibrium
+                                    </Button>
+                                </Link>
                             </TabPane>
 
                             <TabPane tabId="tabs3">
