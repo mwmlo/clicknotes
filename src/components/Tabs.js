@@ -118,6 +118,16 @@ export class Tabs extends Component {
                                         🏭 Energy Production
                                     </Button>
                                 </Link>
+                                <Link to="/fields">
+                                    <Button color="success" outline type="button">
+                                        🪐 Fields
+                                    </Button>
+                                </Link>
+                                <Link to="/electroHL">
+                                    <Button color="success" outline type="button">
+                                        🧲 Electromagnetism (HL)
+                                    </Button>
+                                </Link>
 
                             </TabPane>
 
