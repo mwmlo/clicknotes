@@ -100,12 +100,12 @@ export class Tabs extends Component {
                                 </Link>
                                 <Link to="/electroSL">
                                     <Button color="success" outline type="button">
-                                        💡 Electromagnetism (SL)
+                                        💡 Electricity
                                     </Button>
                                 </Link>
                                 <Link to="/circmotion">
                                     <Button color="success" outline type="button">
-                                        🎡 Circular Motion (SL)
+                                        🎡 Circular Motion
                                     </Button>
                                 </Link>
                                 <Link to="/nuclearSL">
@@ -126,6 +126,11 @@ export class Tabs extends Component {
                                 <Link to="/electroHL">
                                     <Button color="success" outline type="button">
                                         🧲 Electromagnetism (HL)
+                                    </Button>
+                                </Link>
+                                <Link to="/nuclearHL">
+                                    <Button color="success" outline type="button">
+                                        🌠 Nuclear Physics (HL)
                                     </Button>
                                 </Link>
 

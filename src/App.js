@@ -19,6 +19,7 @@ import NuclearSL from './notes/physics/nuclear_sl/NuclearSL';
 import Energy from './notes/physics/energy/Energy';
 import Fields from './notes/physics/fields/Fields';
 import ElectroHL from './notes/physics/electro_hl/ElectroHL';
+import NuclearHL from './notes/physics/nuclear_hl/NuclearHL';
 
 import Atomic from './notes/chemistry/atomic/Atomic'
 import Periodicity from './notes/chemistry/periodic/Periodicity';
@@ -64,6 +65,9 @@ function App() {
           </Route>
           <Route path="/electroHL">
             <ElectroHL />
+          </Route>
+          <Route path="/nuclearHL">
+            <NuclearHL />
           </Route>
 
           {/*Chemistry*/}
